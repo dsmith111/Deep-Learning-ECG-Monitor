@@ -33,8 +33,11 @@ Our cloud system was evaluated based on the time efficiency of the system. How l
 Our classifier was trained for 100 epochs on data that had an 80/20 train/test split; the model took around 6 minutes to complete training. The nodes were optimized using the Adam algorithm, the loss was measured through categorical cross-entropy and the learning rate was constant at 10-4. The model began to converge to its maximum accuracy after around 50 epochs. The model was able to achieve a training and test accuracy of 96%. <br />
 <img src="figs/epoch_accuracy.png">
 <img src="figs/epoch_loss.png">
+<br/>
 
 We can see through the confusion matrix that Fusion beats were misclassified as normal or VEB and 16% of SVEB beats were misclassified as normal.
+
+<br/>
 <img src="figs/confMap.png">
 <br/>
 
