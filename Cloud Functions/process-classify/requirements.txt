@@ -1,0 +1,10 @@
+# Function dependencies, for example:
+# package>=version
+python-dateutil
+pytz
+pandas
+numpy
+fsspec
+gcsfs
+tensorflow>=2.x.x
+keras>=2.x.x
